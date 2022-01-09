@@ -38,7 +38,7 @@ class _LoginFormState extends State<LoginForm> {
   void _auth() {
     final login = _loginTextController.text;
     final password = _passwordTextController.text;
-    if (login == 'q' && password == 'q') {
+    if (login == '+79110000000' && password == 'q') {
       errorText = null;
       Navigator.of(context).pushReplacementNamed('/main_screen');
     } else {

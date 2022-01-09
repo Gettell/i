@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:i/navdrawer.dart';
+import 'package:i/to_do_list.dart';
 import 'package:i/todo_widget.dart';
 import 'json_data.dart';
 import 'main.dart';
@@ -52,7 +53,7 @@ class DetailPage extends StatelessWidget {
                     onPressed: () {
                       Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => TodoWidget()),
+                        MaterialPageRoute(builder: (context) => TodoList()),
                       );
                     }, child: Text ('Перейти к задачам'))
               ],
